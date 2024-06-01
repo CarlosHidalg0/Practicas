@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function suma(){
+            
+            a= 5;
+            b= 5;
+            c = a + b;
+            document.getElementById('a').innerHTML =a;
+            document.getElementById('b').innerHTML =b;
+            document.getElementById('total').innerHTML =c;
+        }
+        function resta(){
+            
+            a= 5;
+            b= 5;
+            c = a - b;
+            document.getElementById('a').innerHTML =a;
+            document.getElementById('b').innerHTML =b;
+            document.getElementById('total').innerHTML =c;
+        }
+        function division(){
+            
+            a= 5;
+            b= 5;
+            c = a / b;
+            document.getElementById('a').innerHTML =a;
+            document.getElementById('b').innerHTML =b;
+            document.getElementById('total').innerHTML =c;
+        }
+
+    </script>
+</head>
+<body class="fondo3">
+    <h1>Operaciones de Suma, Resta y Division </h1>
+    <p id="a"></p>
+    <p id="b"></p>
+    <p id="total"></p>
+    <button type="button" onclick="suma()">Suma</button>  <br>
+      <button type="button" onclick="resta()">Resta</button>   <br>
+      <button type="button" onclick="division()">Division</button>
+    
+</body>
+</html>
